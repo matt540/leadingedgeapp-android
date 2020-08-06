@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        tools:ignore="UselessParent">
+
+
+        <ScrollView
+            android:id="@+id/radio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_select_details">
+
+
+            <RelativeLayout
+                android:id="@+id/relative_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessLeaf,UselessParent">
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_10"
+                    android:text="@string/session_description"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_18" />
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+        <View
+            android:id="@+id/outerView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/radio_scroll"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/outerView"
+            android:layout_margin="@dimen/dp_10"
+            tools:ignore="UselessLeaf">
+
+
+            <TextView
+                android:id="@+id/txt_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_marginEnd="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:text="@string/ok"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18"
+                tools:ignore="ButtonOrder,HardcodedText,RtlHardcoded,SpUsage,UnknownIdInLayout" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_select_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_15"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/txt_select_details"
+            android:background="@color/gray" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

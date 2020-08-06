@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img1"
+
+    tools:context=".Activity.SignUpActivity">
+
+    <ScrollView
+        android:id="@+id/scroll_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_bottom">
+
+        <LinearLayout
+            android:id="@+id/linear_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profileRegister"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_100"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_30"
+                android:src="@drawable/camera"
+                tools:ignore="ContentDescription" />
+
+
+            <Button
+                android:id="@+id/btn_register_now_profile"
+                android:layout_width="@dimen/dp_150"
+                android:layout_height="@dimen/dp_40"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:background="@drawable/curvedbackgroundcolorprimary"
+                android:text="@string/registerNow"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14" />
+
+            <LinearLayout
+                android:id="@+id/linear_your_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:background="@drawable/curvedbackgroundwhite">
+
+                <EditText
+                    android:id="@+id/et_your_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/yourName"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:paddingStart="@dimen/dp_30"
+                    android:paddingLeft="@dimen/dp_30"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_14"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_emailRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:background="@drawable/curvedbackgroundwhite">
+
+                <EditText
+                    android:id="@+id/et_emailRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/email"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="@dimen/dp_30"
+                    android:paddingLeft="@dimen/dp_30"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_14"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linear_passwordRegister"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:background="@drawable/curvedbackgroundwhite">
+
+                <EditText
+                    android:id="@+id/et_passwordRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/password"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:paddingStart="@dimen/dp_30"
+                    android:paddingLeft="@dimen/dp_30"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_14"
+                    tools:ignore="RtlHardcoded,RtlSymmetry,TextFields" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_zip_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginTop="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_30"
+                android:background="@drawable/curvedbackgroundwhite">
+
+                <EditText
+                    android:id="@+id/et_zip_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_40"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/zipCode"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:paddingStart="@dimen/dp_30"
+                    android:paddingLeft="@dimen/dp_30"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/sp_14"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relative_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_register_now"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:background="@drawable/curvedbackgroundcolorprimary"
+            android:text="@string/registerNow"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+
+        <TextView
+            android:id="@+id/tv_already_have_an_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_register_now"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:gravity="center"
+            android:text="@string/account"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/sp_18" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,601 @@
+<resources>
+    <string name="app_name">LINK Program</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="takeAPic">Take a Picture</string>
+    <string name="yourName">Your Name</string>
+    <string name="zipCode">Zip Code</string>
+    <string name="registerNow">Register Now</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="location_finder">Location Finder</string>
+    <string name="book_a_session">Book Now</string>
+    <string name="book_session">Book Session</string>
+    <string name="calendar">My Upcoming Sessions</string>
+    <string name="instructor_comments">Instructor Comments</string>
+    <string name="settings">Settings</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="or">or</string>
+    <string name="welcome">Welcome</string>
+    <string name="search">Search</string>
+    <string name="bookSession">Book Session</string>
+    <string name="progressions">Progressions</string>
+    <string name="myAccount">My Account</string>
+    <string name="mo">Mo</string>
+    <string name="tu">Tu</string>
+    <string name="we">We</string>
+    <string name="th">Th</string>
+    <string name="fr">Fr</string>
+    <string name="sa">Sa</string>
+    <string name="su">Su</string>
+    <string name="eventDate">Event Date</string>
+    <string name="event">Event</string>
+    <string name="availableSession">SELECT AVAILABLE SESSION</string>
+    <string name="book">Book</string>
+    <string name="title_loc">Session Date: </string>
+    <string name="description_loc">Session Time: </string>
+    <string name="amount_loc">Amount: $</string>
+    <string name="date">Session Date :</string>
+    <string name="time">Time</string>
+    <string name="attachments">Attachments()</string>
+    <string name="imgName">Image Name</string>
+    <string name="buyAboard">Buy a Board</string>
+    <string name="add_to_favourite">Add To Favourite</string>
+    <string name="added_as_favourite">Added as Favourite</string>
+    <string name="session_description">Session Description:</string>
+    <string name="session_price">Session Fees :</string>
+    <string name="progressionLevel1">Level 1 :</string>
+    <string name="successfully_paid">SuccessFully Paid</string>
+    <string name="choose_date">Select Date</string>
+    <string name="choose_time">Estimated Arrival Time</string>
+    <string name="instructors">Instructors</string>
+    <string name="total_foils">Total Foils</string>
+    <string name="description">The resort is situated on private -17acre lushy landscaped peninsula with a secluded beach and is located near the  Old San Juan historic district and many of the destination\'s top attractions.</string>
+    <string name="skip">Skip Video</string>
+    <string name="list">list</string>
+    <string name="day">day</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+
+    <string name="enterName">Enter Your Name</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="enterZipCode">Enter Zip Code</string>
+    <string name="account">Already have an account? Click here.</string>
+    <string name="location">Locations</string>
+    <string name="session_location">Session Location :</string>
+    <string name="Sessions">My Sessions</string>
+    <string name="signIn">Sign In</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="submit">Submit</string>
+    <string name="Name">Name:</string>
+    <string name="userEmail">user@Email</string>
+    <string name="address">Address:</string>
+    <string name="Email">Email:</string>
+    <string name="city">City:</string>
+    <string name="state">State:</string>
+    <string name="country">Country:</string>
+    <string name="zip">Zip:</string>
+    <string name="paymentMethod">Payment Method</string>
+    <string name="cardNum">Card Number:</string>
+    <string name="exp">Exp</string>
+    <string name="cvc">CVC</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="yourLoctaion">Your Location:</string>
+    <string name="range">Range:</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="save">Save</string>
+    <string name="desc_progression">You are now eligible for progression enrollment. \n Book Now</string>
+    <string name="desc_progression_page">Successful completion of a discover session is required to advance to the Progression Model.</string>
+    <string name="desc_progression_page1">Progression Enrollment is required to advance to the Progression Model.</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+    <string name="buy_a_board_url">https://leadingedgewatersports.com/</string>
+    <array name="states">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District Of Columbia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+        <item>Alabama</item>
+        <item>Alabama</item>
+        <item>Alabama</item>
+        <item>Alabama</item>
+        <item>Alabama</item>
+        <item>Alabama</item>
+    </array>
+
+    <string-array name="range_array">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="enter_old_password">Enter Old Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="enter_confirm_new_password">Enter Confirm New Password</string>
+    <string name="pleaseEnterYourCard">Please enter your card details below  to confirm payment.</string>
+    <string name="confirm">Confirm</string>
+    <string name="discover_lesson">Discover Session</string>
+    <string name="certificate">Get Certified</string>
+    <string name="select">Welcome</string>
+    <string name="session_details">Session Details</string>
+    <string name="ok">OK</string>
+    <string name="token_expired">Token Expired, please Login.</string>
+    <string name="something_went_wrong">Something went wrong , please try again.</string>
+    <string name="progressionType">Progression Enrollment</string>
+    <string name="progressionStatus">Progression Status :</string>
+    <string name="progressionEnrollment">Discovery Enrollment</string>
+    <string name="progressionlevel1">Cruiser</string>
+    <string name="progressionlevel2">Explorer</string>
+    <string name="progressionlevel3">Sport</string>
+    <string name="progressionlevel4">Pro</string>
+    <string name="progression_enrollment_date">Progression Enrollment Date :</string>
+    <string name="progression_enrollment_comment">Comment :</string>
+    <string name="progression_enrollment_instructor_name">Instructor Name:</string>
+    <string name="progression_enrollment_location_name">Location Name:</string>
+    <string name="details">Progression Enrollment Details</string>
+    <string name="progression_level_1">Progression Level 1</string>
+    <string name="progression_level_2">Progression Level 2</string>
+    <string name="progression_level_3">Progression Level 3</string>
+    <string name="progression_level_4">Progression Level 4</string>
+    <string name="progression_member">Member</string>
+    <string name="sessionType">Session Type :</string>
+    <string name="sessionCost">Session Cost :</string>
+    <string name="welcomeTitle">If you are new to the sport click Discovery Session. If you are an existing eFoiler choose Get Certified.</string>
+    <string name="noDataAvailable">No Data Available</string>
+    <string name="you_are_here">You are here</string>
+    <string name="united_states">United States</string>
+    <string name="session_day">Session Day :</string>
+    <string name="getCertified">Get Certified</string>
+    <string name="videos">Videos</string>
+    <string name="videoName">Video Name</string>
+    <string name="videoTitle1">Welcome to the family!</string>
+    <string name="videoTitle2">Safety</string>
+    <string name="videoTitle3">First Ride</string>
+    <string name="videoTitle4">How to Foil</string>
+    <string name="videoTitle5">4\'4 Proper Stance</string>
+    <string name="videoTitle6">Whitney\'s First eFoil Ride</string>
+    <string name="videoTitle7">CT\'s First Ride</string>
+    <string name="videoTitle8">Effortless Exploring</string>
+    <string name="getCertifed">For experienced eFoilers who what to join our membership program please click below to schedule a certification session.</string>
+    <string name="scheduleNow">Schedule Now</string>
+    <string name="waiver">Please review and approve the waiver below.</string>
+    <string name="gender">Gender :</string>
+    <string name="age">Age :</string>
+    <string name="weight">Weight</string>
+    <string name="previousExperience">Previous Experience :</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="approve">Approve</string>
+    <string name="experienceDescription">Experience Description :</string>
+    <string name="availableTimeSlot">SELECT Available Dates</string>
+    <string name="myUpcomingSession">My Upcoming Sessions</string>
+    <string name="progressionLevel2">Level 2 :</string>
+    <string name="progressionLevel3">Level 3 :</string>
+    <string name="progressionLevel4">Level 4 :</string>
+    <string name="commentedBy">Commented By</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="certifiedBy">You\'re Now Certified by Super Admin on Date :</string>
+    <string name="member">Congratulations, You\'re now Member.</string>
+    <string name="membership">Membership</string>
+    <string name="myPaymentMethods">My Payment Methods</string>
+    <string name="editPicture">Edit Picture</string>
+    <string name="discoveryLesson">Discovery Lesson</string>
+    <string name="note">Note :</string>
+    <string name="indicates">Indicates dates not available.</string>
+    <string name="allOtherDates">All other dates are available. You can book your sessions on those days.</string>
+    <string name="toShowAvailableTime">Press and hold a particular date in the calendar to show available time.</string>
+    <string name="selectedDate">Selected Date :</string>
+    <string name="availableTimeSlots">Available Time Slots</string>
+    <string name="typeHere">Type Here</string>
+    <string name="upcomingSession">Upcoming Sessions</string>
+    <string name="previosSession">Previous Sessions</string>
+    <string name="rating">Rating :</string>
+    <string name="normalLesson">Normal Lesson</string>
+    <string name="clickToSubmit">Click to Submit</string>
+    <string name="ratings">Rating</string>
+    <string name="ratingDesc">Hey everyone ! Positive reviews from awesome customers like you help others to feel confident  about choosing Link Affiliate too.</string>
+    <string name="session_cost">Session Cost :</string>
+    <string name="basicSkills">Basic Skills:</string>
+    <string name="groundReview">\u25CF Ground Review</string>
+    <string name="safetyReview">\u25CF Safety Review</string>
+    <string name="siteInspection">\u25CF Site Inspection</string>
+    <string name="conditionsCheck">\u25CF Conditions Check</string>
+    <string name="intoToTheThrottleAndTheBoard">\u25CF Introduction to the throttle and the board</string>
+    <string name="underStandingTheBasics">\u25CF UnderStanding the basics</string>
+    <string name="waterSkills">Water Skills:</string>
+    <string name="throttleControl">\u25CF Throttle control. “Speed up and slowdown”</string>
+    <string name="turning">\u25CF Turning. “Both directions comfortably”</string>
+    <string name="gettingToKnees">\u25CF Getting to knees</string>
+    <string name="standing">\u25CF Standing</string>
+    <string name="standingTurns">\u25CF Standing turns</string>
+    <string name="firstFlight">\u25CF First flight “if all previous requirements met”</string>
+    <string name="beginnerSkills">Beginner skills:</string>
+    <string name="touchGo">\u25CF Touch and go’s</string>
+    <string name="controlledFoiling">\u25CF Controlled foiling for distance.  200yrds</string>
+    <string name="lowFlyingTurns">\u25CF Low flying turns</string>
+    <string name="abilityToHandle">\u25CF Ability to handle boat wake/light chop</string>
+    <string name="intermediateSkills">Intermediate skills:</string>
+    <string name="foilingComfortably">\u25CF Foiling comfortably and completely under control</string>
+    <string name="foilingFor">\u25CF Foiling for distance 400yrds</string>
+    <string name="flyingTurn">\u25CF Flying turns</string>
+    <string name="ability">\u25CF Ability to handle full boat wake/ chop</string>
+    <string name="advancedSkills">Advanced skills:</string>
+    <string name="foil">\u25CF Foil comfortably at any height and with any wing</string>
+    <string name="figure">\u25CF Figure 8 turns</string>
+    <string name="choap">\u25CF Chop and waves</string>
+    <string name="speedOver"><![CDATA[\u25CF Speeds over &#190; throttle]]></string>
+    <string name="flying">\u25CF Flying slalom</string>
+    <string name="discoveryEnrollment">Discovery Enrollment</string>
+    <string name="cannotBookSession">You can not book Certification Session.</string>
+    <string name="linkAffiliate">Link Affiliate</string>
+    <string name="cruiser">Cruiser</string>
+    <string name="explorer">Explorer</string>
+    <string name="sport">Sport</string>
+    <string name="pro">Pro</string>
+    <string name="changeLanguage">Change Language</string>
+    <string name="selectLanguage">Select Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Spanish</string>
+    <string name="german">German</string>
+    <string name="french">French</string>
+    <string name="italian">Italian</string>
+    <string name="progressionFragment">Progressions</string>
+    <string name="sessionPayment">Session Payment</string>
+    <string name="videoFragment">Videos</string>
+    <string name="card">Card :</string>
+    <string name="billingAddress">Billing Address :</string>
+    <string name="addNewCard">Add New Card</string>
+    <string name="selectCardFromBelowToCompletePayment">"Select Card From Below To Complete Payment "</string>
+    <string name="Name1">Name</string>
+    <string name="Address">Address</string>
+    <string name="apt">Apt.</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="State">State</string>
+    <string name="City">City</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="session_fees">Session Fees</string>
+    <string name="session_time">Session Time</string>
+    <string name="session_new_description">Description</string>
+    <string name="fees">Fees</string>
+    <string name="check_avaibility_amp_continue"><![CDATA[Check Avaibility & Continue]]></string>
+    <string name="select_instructor">Select Instructor</string>
+    <string name="select_board">Select Board</string>
+    <string name="continue_session">Continue</string>
+
+
+    <string-array name="countries_array">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+
+    <string-array name="no_of_timing">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>150</item>
+        <item>180</item>
+        <item>210</item>
+        <item>240</item>
+    </string-array>
+    <string name="register_terms">Please acknowledge that you have read the Link Program <![CDATA[<a href="https://linkaffiliateapp.com/images/Link%20Program%20Terms%20of%20Use%20and%20Privacy%20Policy.pdf">Term of Use and Privacy Policy</a>]]> before using this app.</string>
+    <string name="pk_token_stripe">"pk_test_bfcHaJ5DBAMWGCZDTwSAWhRt"</string>
+    <!--    <string name="pk_token_stripe" translatable="false">"pk_live_OXutpP1dO34MPAAUSSby454100OIddPuqP"</string>-->
+    <string name="url">http://surfboard-api.ebizwork.com/api/mobile/</string>
+    <!--    <string name="url">https://linkaffiliateapp.com/api/mobile/</string>-->
+    <string name="session_duration">Session Duration</string>
+    <string name="welcome_to_the_link_affiliate_app">Welcome to the LINK Affiliate App!</string>
+    <string name="this_app_is_custom_built_for_customers_to_interact_with_our_partner_affiliates_all_over_the_world_to_ride_lift_efoils">This app is custom built for customers \n to interact with our Partner Affiliates \n all over the world to ride Lift eFoils</string>
+    <string name="navigate_to_the_locations_window_to_find_the_affiliate_nearest_to_you_or_if_you_are_traveling_search_any_location_in_the_world_to_schedule_your_time_to_fly">Navigate to the locations window to \n find the Affiliate nearest to you or if \n you are traveling search any location \n in the world to schedule your time to fly</string>
+    <string name="checkout_their_location_description_and_select_the_sessions_available_to_you_pick_your_date_and_time_to_schedule_your_session">Checkout their location description and \n select the sessions available to you, pick your \n date and time to schedule your session</string>
+    <string name="for_those_eager_to_fly_like_a_pro_start_with_a_discovery_lesson_to_advance_to_the_progression_training_program">For those eager to fly like a pro start with a \n Discovery Lesson to advance to the \n Progression Training Program</string>
+    <string name="once_you_complete_the_program_at_any_location_enroll_in_membership_to_utilize_lift_efoils_at_any_affiliate_location_at_a_discounted_rate">Once you complete the program at any location,\n enroll in Membership to utilize Lift eFoils \n at any Affiliate location at a discounted rate</string>
+    <string name="welcome_to_the_family_come_fly_with_us">Welcome to the Family! \n Come Fly With Us!</string>
+    <string name="let_s_fly">Let\'s Fly</string>
+    <string name="session_start_time">Session Time</string>
+</resources>

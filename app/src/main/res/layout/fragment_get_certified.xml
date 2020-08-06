@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GetCertifiedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_img1"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:justificationMode="inter_word"
+            android:text="@string/getCertifed"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            tools:targetApi="o" />
+
+        <Button
+            android:id="@+id/btn_scheduleNow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/scheduleNow"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+
+
+    </LinearLayout>
+</FrameLayout>

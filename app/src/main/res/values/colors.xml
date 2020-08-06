@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eaebed</color>
+    <color name="colorPrimaryDark">#477497</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="colorMenuItem">#9399a3</color>
+    <color name="colorMenuBtnText">#ffffff</color>
+    <color name="colorPrimaryLight">#e7f4f6</color>
+    <color name="twitterColor">#4fb8d9</color>
+    <color name="borderColor">#4fb8d9</color>
+    <color name="facebookColor">#086aae</color>
+    <color name="backgroundColor">#c8e8e8</color>
+    <color name="gray">#a9a9a9</color>
+    <color name="location_bg_sub_blur_color">#20ffffff</color>
+    <color name="calendar_start_color">#e4f4fa</color>
+    <color name="calendar_end_color">#aee4f8</color>
+    <color name="calendar_other">#f4fafd</color>
+    <color name="locationbg">#9fdefb</color>
+    <color name="black">#000000</color>
+    <color name="background_edittext">#f8f5f7</color>
+    <color name="background_map_search">#9fdefb</color>
+    <color name="color_green">#10A33A</color>
+    <color name="color_red">#EC3C1A</color>
+    <color name="calendar_bg">#BAE3F9</color>
+</resources>

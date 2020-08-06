@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_img1"
+    android:orientation="vertical"
+    tools:context=".Fragments.BuyABoardFragment">
+
+    <LinearLayout
+        android:id="@+id/lin_buy_a_board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_20"
+            android:gravity="center"
+            android:text="Select your primary Affiliate"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_20"
+            android:gravity="center"
+            android:text="Please write down the discount code to receive your discount at purchase"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/sp_18" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_50"
+                android:layout_weight="0.2"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dp_10"
+                android:text="Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_18" />
+
+            <Spinner
+                android:id="@+id/spinner_name"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_50"
+                android:layout_weight="0.8"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dp_10"
+                android:text="Name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_18" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_20"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dp_10"
+                android:text="Discount Code"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:id="@+id/txt_discount_code"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center|start"
+                android:paddingStart="@dimen/dp_10"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_18" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_10"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/dp_10"
+            android:text="Buy a board"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="No Boards Available"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/sp_18"
+        android:visibility="gone" />
+
+</RelativeLayout>

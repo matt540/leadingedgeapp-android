@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/relativeSessionPreviousDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dp_5"
+        android:background="@drawable/progression_background"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_5"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/linearPastType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.6"
+                android:text="@string/sessionType"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/tvPreviousSessionType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.4"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearPreviousDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.6"
+                android:text="@string/date"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/tvPreviousDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.4"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearPreviousCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.6"
+                android:text="@string/sessionCost"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/tvPreviousCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.4"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearPreviousLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.7"
+                android:text="@string/session_location"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/tvPreviousLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.3"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.59"
+                android:text="@string/rating"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <RatingBar
+                android:id="@+id/previousRating"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_50"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.41"
+                android:max="5"
+                android:padding="@dimen/dp_2"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:stepSize="1"
+                android:theme="@style/RatingBar"
+                android:transformPivotX="0dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingBottom="@dimen/dp_10"
+            android:id="@+id/linearClickToSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:layout_weight="0.59"
+                android:text="@string/rating"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/tvClickToSubmit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight="1.41"
+                android:gravity="center_vertical"
+                android:text="@string/clickToSubmit"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold"
+                tools:ignore="NestedWeights" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_cancelled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp_10">
+
+            <Button
+                android:id="@+id/btn_cancelled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/color_red"
+                android:padding="@dimen/dp_5"
+                android:text="Cancelled"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

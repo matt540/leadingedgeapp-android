@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "248074396682",
+    "firebase_url": "https://surfboardandroid.firebaseio.com",
+    "project_id": "surfboardandroid",
+    "storage_bucket": "surfboardandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248074396682:android:0b511113e40295436bebf3",
+        "android_client_info": {
+          "package_name": "com.surfboardapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248074396682-phddrct8sni5oku05rqjofqenlmms5jt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surfboardapp",
+            "certificate_hash": "d592b8a0ed6c7d713e4ecfbfbaf56f7c66884b04"
+          }
+        },
+        {
+          "client_id": "248074396682-nu8o94l1epc3htnd0gieiaaq6b6605j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenGqCvRKDqxagBeSO0bKvQJcdswLFjQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248074396682-nu8o94l1epc3htnd0gieiaaq6b6605j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
