@@ -10,7 +10,25 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b5b11d2-cf3a-4c5b-b8ec-c47d63ee8c87" name="Default Changelist" comment="" />
+    <list default="true" id="5b5b11d2-cf3a-4c5b-b8ec-c47d63ee8c87" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.aab" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.aab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,11 +113,11 @@
     <property name="ScreenshotViewer.SavePath" value="$USER_HOME$/Desktop" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Montejunto" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -577,7 +595,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="13-05-2020 (App URL changes)" />
     <MESSAGE value="15-05-2020 (App URL changes &amp; Bug Fixes)" />
     <MESSAGE value="18-05-2020 (Privacy Policy added and Bug fixes)" />
     <MESSAGE value="19-05-2020 (Stripe changes)" />
@@ -602,7 +619,8 @@
     <MESSAGE value="07-07-2020 (Bug fixes and creds change to test)" />
     <MESSAGE value="20-07-2020 (creds change to live and update on playstore)" />
     <MESSAGE value="04-08-2020 (session time added and secret api call and creds to test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="04-08-2020 (session time added and secret api call and creds to test)" />
+    <MESSAGE value="13-08-2020 (Creds change to live, update the playstore version and live to playstore)" />
+    <option name="LAST_COMMIT_MESSAGE" value="13-08-2020 (Creds change to live, update the playstore version and live to playstore)" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -616,10 +634,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="177" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1596521181356" />
-    <state x="260" y="0" width="1106" height="728" key="CommitChangelistDialog2" timestamp="1596547816000">
+    <state x="260" y="0" width="1106" height="728" key="CommitChangelistDialog2" timestamp="1597324871216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="260" y="0" width="1106" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1596547816000" />
+    <state x="260" y="0" width="1106" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597324871216" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1597324105121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597324105121" />
     <state width="1323" height="366" key="GridCell.Tab.0.bottom" timestamp="1596542729632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -636,14 +658,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="366" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596542729632" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1596706925571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596706925571" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596547835950">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596547835950" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596685896246">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1597306306378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1596685896246" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597306306378" />
     <state x="339" y="16" width="670" height="676" key="search.everywhere.popup" timestamp="1596516214556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

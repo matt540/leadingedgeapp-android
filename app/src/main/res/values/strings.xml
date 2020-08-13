@@ -584,10 +584,10 @@
         <item>240</item>
     </string-array>
     <string name="register_terms">Please acknowledge that you have read the Link Program <![CDATA[<a href="https://linkaffiliateapp.com/images/Link%20Program%20Terms%20of%20Use%20and%20Privacy%20Policy.pdf">Term of Use and Privacy Policy</a>]]> before using this app.</string>
-    <string name="pk_token_stripe">"pk_test_bfcHaJ5DBAMWGCZDTwSAWhRt"</string>
-    <!--    <string name="pk_token_stripe" translatable="false">"pk_live_OXutpP1dO34MPAAUSSby454100OIddPuqP"</string>-->
-    <string name="url">http://surfboard-api.ebizwork.com/api/mobile/</string>
-    <!--    <string name="url">https://linkaffiliateapp.com/api/mobile/</string>-->
+    <!--    <string name="pk_token_stripe">"pk_test_bfcHaJ5DBAMWGCZDTwSAWhRt"</string>-->
+    <string name="pk_token_stripe" translatable="false">"pk_live_OXutpP1dO34MPAAUSSby454100OIddPuqP"</string>
+    <!--    <string name="url">http://surfboard-api.ebizwork.com/api/mobile/</string>-->
+    <string name="url">https://linkaffiliateapp.com/api/mobile/</string>
     <string name="session_duration">Session Duration</string>
     <string name="welcome_to_the_link_affiliate_app">Welcome to the LINK Affiliate App!</string>
     <string name="this_app_is_custom_built_for_customers_to_interact_with_our_partner_affiliates_all_over_the_world_to_ride_lift_efoils">This app is custom built for customers \n to interact with our Partner Affiliates \n all over the world to ride Lift eFoils</string>
